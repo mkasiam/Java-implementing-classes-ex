@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Hallway Switch Control New Classes added">
-      <change afterPath="$PROJECT_DIR$/src/bankAccount/BankAccountTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankAccount/BankAccountTester.java" afterDir="false" />
+    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Bank Account Tester Class created and test cases passed">
+      <change afterPath="$PROJECT_DIR$/src/bankAccount/BankAccountTesterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hallwayLight/HallwaySwitchControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hallwayLight/HallwaySwitchControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankAccount/BankAccountTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/BankAccountTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankAccount/BankAccountTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/BankAccountTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,6 +55,7 @@
     "Application.BankAccountTestRunner.executor": "Run",
     "Application.HallwayLightRunner.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.BankAccountTesterTest.executor": "Run",
     "JUnit.HallwayLightTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -73,10 +74,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bankAccount" />
       <recent name="hallwayLight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankAccountTestRunner">
+  <component name="RunManager" selected="JUnit.BankAccountTesterTest">
     <configuration name="BankAccountTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankAccount.BankAccountTestRunner" />
       <module name="HallwayLight" />
@@ -103,8 +105,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankAccountTesterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HallwayLight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankAccount" />
+      <option name="MAIN_CLASS_NAME" value="bankAccount.BankAccountTesterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankAccountTesterTest" />
         <item itemvalue="Application.BankAccountTestRunner" />
         <item itemvalue="Application.HallwayLightRunner" />
       </list>
@@ -159,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715060937326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bank Account Tester Class created and test cases passed">
+      <option name="closed" value="true" />
+      <created>1715062088543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715062088543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +195,7 @@
     <MESSAGE value="Test Class created for highway runner and added multiple test cases" />
     <MESSAGE value="Test cases run successfully" />
     <MESSAGE value="Hallway Switch Control New Classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hallway Switch Control New Classes added" />
+    <MESSAGE value="Bank Account Tester Class created and test cases passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank Account Tester Class created and test cases passed" />
   </component>
 </project>

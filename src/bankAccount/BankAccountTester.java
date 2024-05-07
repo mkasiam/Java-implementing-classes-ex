@@ -27,4 +27,7 @@ public class BankAccountTester {
             System.out.println("Insufficient Balance");
         }
     }
+    public void addInterest(double rate){
+        balance = balance + (balance * ( rate / 100));
+    }
 }
