@@ -17,13 +17,6 @@ public class HallwaySwitchControl {
         return secondSwitchState;
     }
 
-    public int getSwitchState(int switchNum) {
-        if (switchNum == 1){
-            return firstSwitchState;
-        } else if (switchNum == 2) {
-            return secondSwitchState;
-        }
-    }
 
     public int getLampState() {
         return lampState;
