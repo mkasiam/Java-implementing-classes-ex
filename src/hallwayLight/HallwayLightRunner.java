@@ -4,6 +4,10 @@ public class HallwayLightRunner {
     public static void main(String[] args) {
 
         HallwayLight situation = new HallwayLight();
+
+        HallwayLight situation1 = new HallwayLight(1,1);
+        System.out.println("For User Input: " + situation1.getLampState());
+
         System.out.println("Initial State:");
 
         System.out.println("First Lamp State: " + situation.getFirstLampState());

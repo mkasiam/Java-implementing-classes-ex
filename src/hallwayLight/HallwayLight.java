@@ -10,12 +10,17 @@ public class HallwayLight {
         lampState = 0;
     }
 
+    public HallwayLight(int firstLampState, int secondLampState) {
+        this.firstLampState = firstLampState;
+        this.secondLampState = secondLampState;
+        updateLampCurrentState();
+    }
 
     public int getFirstLampState() {
         return firstLampState;
     }
 
-    public int getSecondLampState(){
+    public int getSecondLampState() {
         return secondLampState;
     }
 
@@ -23,17 +28,17 @@ public class HallwayLight {
         return lampState;
     }
 
-    public void toggleFirstSwitch(){
+    public void toggleFirstSwitch() {
         firstLampState = 1 - firstLampState;
         updateLampCurrentState();
     }
 
-    public void toggleSecondSwitch(){
+    public void toggleSecondSwitch() {
         secondLampState = 1 - secondLampState;
         updateLampCurrentState();
     }
 
-    public void updateLampCurrentState(){
+    public void updateLampCurrentState() {
        lampState = firstLampState ^ secondLampState;
     }
 }
