@@ -18,7 +18,7 @@ class HallwayLightTest {
     void getLampStateForSituation1(){
 
         situation1.toggleFirstSwitch();
-        assertEquals(1, situation1.getLampState());
+        assertEquals(0, situation1.getLampState());
 
     }
 

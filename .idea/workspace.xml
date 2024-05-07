@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Main class deleted and added user input for highway light">
-      <change afterPath="$PROJECT_DIR$/src/hallwayLight/HallwayLightTest.java" afterDir="false" />
+    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Test Class created for highway runner and added multiple test cases">
+      <change beforePath="$PROJECT_DIR$/src/hallwayLight/HallwayLightTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +116,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715057625597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Class created for highway runner and added multiple test cases">
+      <option name="closed" value="true" />
+      <created>1715058195523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715058195523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Highway Runner Problem solved with Runner Class Successfully" />
     <MESSAGE value="Main class deleted and added user input for highway light" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main class deleted and added user input for highway light" />
+    <MESSAGE value="Test Class created for highway runner and added multiple test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Class created for highway runner and added multiple test cases" />
   </component>
 </project>
