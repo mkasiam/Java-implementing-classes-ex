@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Highway Runner Problem solved with Runner Class Successfully">
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HallwayLight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HallwayLight.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hallwayLight/HallwayLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hallwayLight/HallwayLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hallwayLight/HallwayLightRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hallwayLight/HallwayLightRunner.java" afterDir="false" />
+    <list default="true" id="6dbdd522-c2f4-430a-aa6f-9384ba20eb52" name="Changes" comment="Main class deleted and added user input for highway light">
+      <change afterPath="$PROJECT_DIR$/src/hallwayLight/HallwayLightTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715056738746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Main class deleted and added user input for highway light">
+      <option name="closed" value="true" />
+      <created>1715057625597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715057625597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Highway Runner Problem solved with Runner Class Successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Highway Runner Problem solved with Runner Class Successfully" />
+    <MESSAGE value="Main class deleted and added user input for highway light" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main class deleted and added user input for highway light" />
   </component>
 </project>
